@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de Privacidade — ASTRA</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 42rem;
+        padding: 3rem 1.25rem 4rem;
+        font:
+          1rem/1.65 system-ui,
+          -apple-system,
+          'Segoe UI',
+          sans-serif;
+      }
+      h1 {
+        font-size: 1.7rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 2.25rem;
+      }
+      ul {
+        padding-left: 1.2rem;
+      }
+      code {
+        font-size: 0.9em;
+      }
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        opacity: 0.7;
+      }
+      a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Política de Privacidade da ASTRA</h1>
+    <p>
+      A ASTRA é um assistente residencial privado, instalado numa única casa e usado apenas pelos
+      moradores dela. Não é um serviço aberto: não há cadastro público, não há venda de nada e não
+      existe usuário fora dessa residência.
+    </p>
+
+    <h2>1. Onde os dados ficam</h2>
+    <p>
+      Num computador dentro da própria casa. O banco de dados é local. Não há servidor na nuvem
+      guardando a caixa de entrada de ninguém.
+    </p>
+
+    <h2>2. O que é acessado na conta do Google</h2>
+    <ul>
+      <li>
+        <strong>Gmail, somente leitura</strong> (<code>gmail.readonly</code>) — para avisar o
+        morador quando chega algo que precisa de atenção e para resumir uma mensagem quando ele
+        pede.
+      </li>
+      <li><strong>Google Agenda</strong> — para falar os compromissos do dia.</li>
+    </ul>
+    <p>A ASTRA não envia e-mail em nome do titular e não apaga mensagens por conta própria.</p>
+
+    <h2>3. O que sai do computador da casa</h2>
+    <p>
+      Para resumir ou classificar uma mensagem, a ASTRA usa um modelo de linguagem externo
+      (<strong>DeepSeek</strong>). Nesse momento, e só nesse, sai da casa:
+    </p>
+    <ul>
+      <li>o remetente (nome e endereço);</li>
+      <li>o assunto, com no máximo 300 caracteres;</li>
+      <li>
+        um trecho do texto, sem HTML, com no máximo 2.500 caracteres (ou 500, na classificação em
+        lote).
+      </li>
+    </ul>
+    <p>
+      Antes de sair, senhas, códigos de verificação e links de redefinição são
+      <strong>ocultados</strong>.
+    </p>
+
+    <h2>4. O que nunca sai do computador da casa</h2>
+    <ul>
+      <li>as credenciais de acesso ao Google, guardadas cifradas (AES-256-GCM);</li>
+      <li>senhas, códigos de verificação e links de recuperação;</li>
+      <li>o HTML bruto, os cabeçalhos completos e os anexos;</li>
+      <li>o restante da caixa de entrada que não foi consultada.</li>
+    </ul>
+
+    <h2>5. Uso limitado</h2>
+    <p>
+      O uso que a ASTRA faz das informações recebidas das APIs do Google obedece à
+      <a href="https://developers.google.com/terms/api-services-user-data-policy"
+        >Política de Dados do Usuário dos Serviços de API do Google</a
+      >, inclusive aos requisitos de Uso Limitado. Em particular: esses dados não são vendidos, não
+      são usados para publicidade, não alimentam treinamento de modelo algum e não são repassados a
+      terceiros, salvo o processamento descrito no item 3.
+    </p>
+
+    <h2>6. Por quanto tempo</h2>
+    <p>
+      Enquanto a conta estiver conectada. Ao desconectar, os dados daquela conta são apagados do
+      computador da casa.
+    </p>
+
+    <h2>7. Como revogar</h2>
+    <p>
+      A qualquer momento, em
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, ou
+      desconectando a conta na própria tela da ASTRA. A leitura para na hora.
+    </p>
+
+    <h2>8. Contato</h2>
+    <p><a href="mailto:ristontech@gmail.com">ristontech@gmail.com</a></p>
+
+    <footer>Última atualização: 12 de novembro de 2026.</footer>
+  </body>
+</html>
